@@ -1,0 +1,11 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=/usr/bin/flutter
+FLUTTER_APPLICATION_PATH=/home/murad/Desktop/New Folder/codecanyon-11.5.3-handyman-service-flutter-ondemand-home-services-app-with-complete-solution (1)/handyman_mainfile_sourcecode/Mobile app/user app/latest/handyman_user_flutter_v11.5.3
+COCOAPODS_PARALLEL_CODE_SIGN=true
+FLUTTER_BUILD_DIR=build
+FLUTTER_BUILD_NAME=11.5.3
+FLUTTER_BUILD_NUMBER=11.5.3
+DART_OBFUSCATION=false
+TRACK_WIDGET_CREATION=true
+TREE_SHAKE_ICONS=false
+PACKAGE_CONFIG=.dart_tool/package_config.json
