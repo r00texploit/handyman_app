@@ -273,7 +273,7 @@ const BOOKING_SAVE_FORMAT = "yyyy-MM-dd kk:mm:ss";
 //region Mail And Tel URL
 const MAIL_TO = 'mailto:';
 const TEL = 'tel:';
-const GOOGLE_MAP_PREFIX = 'https://www.google.com/maps/search/?api=1&query=';
+const GOOGLE_MAP_PREFIX = 'https://www.google.com/maps/search/?api=AIzaSyDL__x5g-TIhqIoQQazJzEbHZQWKXReeF8&query=';
 
 //endregion
 
