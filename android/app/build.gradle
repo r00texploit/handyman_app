@@ -91,4 +91,5 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'phonepe.intentsdk.android.release:IntentSDK:2.3.0'
+    Implementation 'com.google.android.gms:play-services-maps:17.0.0'
 }
