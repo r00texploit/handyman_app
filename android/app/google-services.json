@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "99387639792",
+    "project_id": "handyman-a10c6",
+    "storage_bucket": "handyman-a10c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99387639792:android:97861813400c82439ebf35",
+        "android_client_info": {
+          "package_name": "com.r00texploit.user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1_OLxey7wIVFowRG0KcVn5vvS4iTIoeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99387639792:android:965b2f74542014f19ebf35",
+        "android_client_info": {
+          "package_name": "com.rootexploit.provider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1_OLxey7wIVFowRG0KcVn5vvS4iTIoeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
