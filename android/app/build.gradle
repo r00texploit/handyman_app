@@ -30,7 +30,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.iqonic.servicebooking"
+    namespace "com.r00texploit.user"
     compileSdkVersion 34
     ndkVersion "25.1.8937393"
 
@@ -74,9 +74,9 @@ android {
         // }
 
         release {
-            shrinkResources false
-            minifyEnabled false
-            signingConfig signingConfigs.debug
+            shrinkResources true //false
+            minifyEnabled true //false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }

@@ -45,7 +45,14 @@ import 'model/dashboard_model.dart';
 //region Handle Background Firebase Message
 Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   log('Message Data : ${message.data}');
-  await Firebase.initializeApp().then((value) {}).catchError((e) {});
+  await Firebase.initializeApp(
+          options: FirebaseOptions(
+              appId: '1:99387639792:android:97861813400c82439ebf35',
+              apiKey: 'AIzaSyC1_OLxey7wIVFowRG0KcVn5vvS4iTIoeY',
+              messagingSenderId: '99387639792',
+              projectId: 'handyman-a10c6'))
+      .then((value) {})
+      .catchError((e) {});
 }
 
 //endregion
@@ -90,11 +97,18 @@ List<(int bookingId, BookingDetailResponse list)?> cachedBookingDetailList = [];
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp().then((value) {
+  await Firebase.initializeApp(
+          options: FirebaseOptions(
+              appId: '1:99387639792:android:97861813400c82439ebf35',
+              apiKey: 'AIzaSyC1_OLxey7wIVFowRG0KcVn5vvS4iTIoeY',
+              messagingSenderId: '99387639792',
+              projectId: 'handyman-a10c6'))
+      .then((value) {
     /// Firebase Notification
     initFirebaseMessaging();
     if (kReleaseMode) {
-      FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
+      FlutterError.onError =
+          FirebaseCrashlytics.instance.recordFlutterFatalError;
     }
   });
 
@@ -115,7 +129,8 @@ void main() async {
   await initialize();
   localeLanguageList = languageList();
 
-  int themeModeIndex = getIntAsync(THEME_MODE_INDEX, defaultValue: THEME_MODE_SYSTEM);
+  int themeModeIndex =
+      getIntAsync(THEME_MODE_INDEX, defaultValue: THEME_MODE_SYSTEM);
   if (themeModeIndex == THEME_MODE_LIGHT) {
     appStore.setDarkMode(false);
   } else if (themeModeIndex == THEME_MODE_DARK) {
@@ -155,7 +170,8 @@ class _MyAppState extends State<MyApp> {
                 home: SplashScreen(),
                 theme: AppTheme.lightTheme(color: snap.data),
                 darkTheme: AppTheme.darkTheme(color: snap.data),
-                themeMode: appStore.isDarkMode ? ThemeMode.dark : ThemeMode.light,
+                themeMode:
+                    appStore.isDarkMode ? ThemeMode.dark : ThemeMode.light,
                 title: APP_NAME,
                 supportedLocales: LanguageDataModel.languageLocales(),
                 localizationsDelegates: [
@@ -167,7 +183,8 @@ class _MyAppState extends State<MyApp> {
                 builder: (context, child) {
                   return MediaQuery(
                     child: child!,
-                    data: MediaQuery.of(context).copyWith(textScaler: TextScaler.linear(1.0)),
+                    data: MediaQuery.of(context)
+                        .copyWith(textScaler: TextScaler.linear(1.0)),
                   );
                 },
                 localeResolutionCallback: (locale, supportedLocales) => locale,

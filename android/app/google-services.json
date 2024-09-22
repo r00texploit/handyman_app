@@ -12,7 +12,20 @@
           "package_name": "com.r00texploit.user"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "99387639792-f23qf4fi5go77loashce618cuu27sv4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.r00texploit.user",
+            "certificate_hash": "e31c6c12a23387255bba5c0dcd24ba2bce141626"
+          }
+        },
+        {
+          "client_id": "99387639792-3rsbj57i1u4nuol5mn840dsru9fqjbjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyC1_OLxey7wIVFowRG0KcVn5vvS4iTIoeY"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99387639792-3rsbj57i1u4nuol5mn840dsru9fqjbjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -31,7 +49,12 @@
           "package_name": "com.rootexploit.provider"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "99387639792-3rsbj57i1u4nuol5mn840dsru9fqjbjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyC1_OLxey7wIVFowRG0KcVn5vvS4iTIoeY"
@@ -39,7 +62,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99387639792-3rsbj57i1u4nuol5mn840dsru9fqjbjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
