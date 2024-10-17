@@ -46,13 +46,19 @@ import 'model/dashboard_model.dart';
 Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   log('Message Data : ${message.data}');
   await Firebase.initializeApp(
-          options: FirebaseOptions(
-              appId: '1:99387639792:android:97861813400c82439ebf35',
-              apiKey: 'AIzaSyC1_OLxey7wIVFowRG0KcVn5vvS4iTIoeY',
-              messagingSenderId: '99387639792',
-              projectId: 'handyman-a10c6'))
-      .then((value) {})
-      .catchError((e) {});
+      options: FirebaseOptions(
+          appId: '1:99387639792:android:97861813400c82439ebf35',
+          apiKey: 'AIzaSyC1_OLxey7wIVFowRG0KcVn5vvS4iTIoeY',
+          messagingSenderId: '99387639792',
+          projectId: 'handyman-a10c6'));
+  await FirebaseMessaging.instance.setForegroundNotificationPresentationOptions(
+    alert: true,
+    badge: true,
+    sound: true,
+  );
+  await FirebaseMessaging.instance.getToken().then((token) {
+    log('Firebase Messaging Token: $token');
+  });
 }
 
 //endregion
