@@ -8,7 +8,7 @@ var defaultPrimaryColor = Color(0xFF5F60B9);
 // Don't add slash at the end of the url
 
 const DOMAIN_URL =
-    'https://handyman.mahasoft.net'; // Don't add slash at the end of the url
+    'https://handyman.r00texploit.com'; // Don't add slash at the end of the url
 
 const BASE_URL = '$DOMAIN_URL/api/';
 
@@ -26,12 +26,12 @@ const DASHBOARD_AUTO_SLIDER_SECOND = 5;
 const OTP_TEXT_FIELD_LENGTH = 6;
 
 const TERMS_CONDITION_URL =
-    'https://handyman.mahasoft.net/terms-and-conditions';
-const PRIVACY_POLICY_URL = 'https://handyman.mahasoft.net/privacy-policy';
-const HELP_AND_SUPPORT_URL = 'https://handyman.mahasoft.net/help-and-support';
-const REFUND_POLICY_URL = 'https://handyman.mahasoft.net/refund-policy';
+    'https://handyman.r00texploit.com/terms-and-conditions';
+const PRIVACY_POLICY_URL = 'https://handyman.r00texploit.com/privacy-policy';
+const HELP_AND_SUPPORT_URL = 'https://handyman.r00texploit.com/help-and-support';
+const REFUND_POLICY_URL = 'https://handyman.r00texploit.com/refund-policy';
 const INQUIRY_SUPPORT_EMAIL =
-    'https://handyman.mahasoft.net/inquiry-support-email';
+    'https://handyman.r00texploit.com/inquiry-support-email';
 
 /// You can add help line number here for contact. It's demo number
 const HELP_LINE_NUMBER = '+249902000000';
